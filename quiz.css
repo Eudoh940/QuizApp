@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    background: black;
+}
+
+main{
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+}
+ .container{
+     height: 330px;
+     width: 1000px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+     padding: 10px 10px 400px 10px;
+     border: 1px solid black;
+     box-shadow: 0 0 8px 3px white;
+     background-color: bisque;
+ }
+ #numQuestion{
+     color: blue;
+     font-size: 20px;
+    
+     
+ }
+
+
+ .title{
+     margin-top: 50px;
+     margin-bottom: 5px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     text-align: center;
+     font-size: 36px;
+     text-transform:uppercase;
+     color: white;
+     background-color: purple;
+
+ }
+ .question{
+     padding:20px;
+     font-size: 22px;
+     border-radius: 10px;
+     margin: 10px 20px 20px 10px; 
+     color: rgb(241, 240, 241);
+     background: purple;
+ }
+
+ .option{
+     width: 470px;
+     display: inline-flex;
+     padding: 10px 0px 10px 10px;
+     vertical-align: middle;
+     background: peru;
+     margin: 10px 0 10px 10px;
+     color:black;
+     border-radius:10px;
+
+ }
+
+ .record-card{
+     padding-top: 20px;
+     font-size: 20px;
+     color: rgb(5, 82, 117);
+     margin-top: 0px 0px 0px 0px;
+ }
+
+ .next-btn{
+     border: none;
+     outline:none;
+     background:green;
+     width: 100px;
+     height: 35px;
+     border-radius: 5px;
+     cursor: pointer;
+     float: right;
+     margin-right: 20px;
+     
+ }
+
+ .next-btn:hover{
+     background:red;
+     color:orange
+ }
+
+ .result{
+     height:100px;
+     text-align: center;
+     font-size: 75px;
+ }
+ .option input:checked .option{
+     background: pink;
+     color: black;
+ }
+
+
+@media (min-width: 576px){
+}
+@media(min-width: 768px) {
+}
+@media(min-width:992px){
+}
